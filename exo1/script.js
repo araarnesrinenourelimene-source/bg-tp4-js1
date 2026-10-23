@@ -1,23 +1,38 @@
+"use strict";
+// Déclaration des variables
+
 const Nom="John";
 const Prenom="Doe";
 const Age=30;
 const Note=15;
 const pi=3.14;
-function f1(){
+
+// Fonction f1 : affiche le nom
+function f1() {
     console.log(Nom);
 }
-function f2(){
+
+// Fonction f2 : affiche le prénom
+function f2() {
     console.log(Prenom);
 }
-function f3(){
+
+// Fonction f3 : affiche le nom et le prénom séparés par un espace
+function f3() {
     console.log(Nom + " " + Prenom);
 }
-function f4(){
+
+// Fonction f4 : affiche l'âge
+function f4() {
     console.log(Age);
 }
-function f5(){
+
+// Fonction f5 : affiche la note
+function f5() {
     console.log(Note);
 }
-function f6(){
+
+// Fonction f6 : affiche la valeur de pi
+function f6() {
     console.log(pi);
 }
