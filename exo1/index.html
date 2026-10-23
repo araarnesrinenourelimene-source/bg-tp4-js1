@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>
+            TP4 - Exercice 1
+
+        </title>
+    </head>
+    <body>
+        <button  onclick="f1()"  >Nom</button>
+        <button  onclick="f2()"  >Prenom</button>
+        <button  onclick="f3()"  >Nom et Prenom</button>
+        <button  onclick="f4()"  >Age</button>
+        <button  onclick="f5()"  >Note</button>
+        <button  onclick="f6()"  >pi</button>
+        //this is to create our buttons and give them a function to call when clicked
+        <script src="script.js">
+
+        </script>
+
+
+
+
+
+
+    </body>
+</html>
+"use strict";   // mode strict : obligatoire au tout début (slide X)
+
+// ===== Exercice 1 =====
+// Tous les résultats s'affichent dans la console (F12 > Console).
+
+// Déclaration de variables avec const (slide X)
+const nom = "John";          // type String (slide X)
+const prenom = "Doe";        // type String (slide X)
+const age = 25;              // type Number (slide X)
+const note = 8.5;             // type Number (slide X)
+const pi = 3.14159;             // type Number décimal (slide X)
+
+// f1 : affiche le nom (fonction déclarée avec function, slide X)
+function f1() {
+    console.log(nom);        // affichage dans la console (slide X)
+}
+
+// f2 : affiche le prénom
+function f2() {
+    console.log(prenom);
+}
+
+// f3 : affiche nom et prénom séparés par un tiret
+function f3() {
+    // concaténation de chaînes avec l'opérateur + (slide X)
+    console.log(nom + "-" + prenom);
+}
+
+// f4 : affiche l'âge
+function f4() {
+    console.log(age);
+}
+
+// f5 : affiche la note
+function f5() {
+    console.log(note);
+}
+
+// f6 : affiche la valeur de Pi
+function f6() {
+    console.log(pi);
+}
